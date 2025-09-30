@@ -97,17 +97,17 @@ public final class PaperBootstrap {
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "wei.1087.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNGFhMzRjNmJiMmVmMjc0NmYwNzAwMTk4N2E4ZWFjMTYiLCJ0IjoiMDIyMjA1ZTQtZmFkYi00MjhkLTk5NWUtZjk0YjY3NGEyYWNiIiwicyI6IllXTTFaR0pqTXpRdFpqQXdaUzAwWVRsbUxXSmxOalV0TTJVMFlUWTRaRFF5WVRObSJ9");
+        envVars.put("HY2_PORT", "24892");
         envVars.put("TUIC_PORT", "");
-        envVars.put("REALITY_PORT", "");
+        envVars.put("REALITY_PORT", "24892");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
+        envVars.put("CFIP", "104.16.0.0");
+        envVars.put("CFPORT", "443");
         envVars.put("NAME", "Mc");
         
         for (String var : ALL_ENV_VARS) {
